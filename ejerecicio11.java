@@ -22,12 +22,11 @@ public class ejerecicio11 {
     String letras,letra2;
     String frase2;
     frase2 = "";
-    letra2 = "";
-    int longitud;
+//    int longitud;
+//    
+//        longitud = frase.length();
     
-        longitud = (frase.length());
-    
-        for (int i=0;i<longitud;i++){
+        for (int i=0;i<frase.length();i++){
             letras = frase.substring(i, i+1);
             switch (letras){
                 case "a": letra2="@";
